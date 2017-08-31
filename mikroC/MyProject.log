@@ -1,0 +1,7 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F877A -DL -O11111104 -fo16 -N"C:\Guihgo\Robotica\MotorDC\mikroC\MyProject.mcppi" -SP"C:\Program Files\mikroC PRO for PIC\Defs\" -SP"C:\Program Files\mikroC PRO for PIC\Uses\P16\" -SP"C:\Guihgo\Robotica\MotorDC\mikroC\" "motordc.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 123	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	motordc.c
+error: 10	324	Undeclared identifier 'PWM1_Init' in expression	motordc.c
+error: 0	102	Finished (with errors): 13 mai 2017, 23:32:21	MyProject.mcppi
